@@ -26,7 +26,7 @@ const DropdownBL = ({ handleBGColorChange }) => {
         );
     });
 
-    return <Dropdown handleChange={handleBGColorChange} options={colorOptions} title="Change the Background" label1="Colour" />;
+    return <Dropdown handleChange={handleBGColorChange} options={colorOptions} title="Change the Background" label1="Colour" defaultValue="white"/>;
 };
 
 export default DropdownBL;
