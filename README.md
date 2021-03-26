@@ -1,6 +1,19 @@
 ## Re-usable form component
 
-This is a demonstration of a re-usable component
+---
+### Running / cloning this App
+To use this component
+
+1.  clone the repo
+    - If you have added an ssh key to Github:  ```git clone git@github.com:CoderCarl1/React-ReusableInput.git```
+    - otherwise: ```git clone https://github.com/CoderCarl1/React-ReusableInput.git```
+2. The project was created with npx create-react-app, so it uses [Yarn](https://create-react-app.dev/docs/getting-started/). If you don't have it installed at present, I would highly recommend it.
+3. Run this command to install the nodepackages needed: ```yarn install```
+4. To run the app: ```yarn start```
+
+----
+
+### This is a demonstration of a re-usable component
 
 DropDown.js takes props:
 
@@ -11,6 +24,8 @@ DropDown.js takes props:
 
  By creating a separate Business Logic file we can re-use the DropDown.js component any time we want.
 
+
+---
  ### Other ways to make this re-usable
  
  - We can pass down styling in the props of the component.
